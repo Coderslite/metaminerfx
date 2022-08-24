@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="libs/js/jquery-2.2.4.min.js"></script>
+
+</head>
+<script>
+    $(document).ready(function(){
+    var num = 222256453645632;
+    var number = num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+    alert (number)
+    })
+</script>
+<body>
+    <p id="value"></p>
+</body>
+</html>
